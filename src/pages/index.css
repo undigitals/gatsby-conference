@@ -1,0 +1,22 @@
+.spin {
+  width: 150px;
+  display: inline-block;
+  color:red;
+  text-align: center;
+}
+.spin:after {
+  content:"";
+  animation: HeroAnimation 3s linear infinite;
+}
+
+@keyframes HeroAnimation {
+  0% {
+    content:"Developer";
+  }
+  50% {
+    content:"Blogger";
+  }
+  100% {
+    content:"Designer";
+  }
+}
